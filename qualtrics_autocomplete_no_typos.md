@@ -1,3 +1,5 @@
+edits to be made 
+
 1. finish local vs global variable creation 
 2. discussing how to find the Qualtrics ID
 3. issues with form field id and also names with ' in them

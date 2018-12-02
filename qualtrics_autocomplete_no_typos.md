@@ -64,9 +64,9 @@ Qualtrics.SurveyEngine.addOnUnload(function()
 You'll want to add this code to the addOnReady function part
 
 ```
-	var list =  [insert the list of things you want]
+	var list =  ['insert', 'different', 'strings', 'like', 'this']
 
-var source = names;
+var source = list;
 	jQuery("[id='QR~QID1~1']").autocomplete({
         minLength: 0,
         source: source,

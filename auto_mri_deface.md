@@ -1,6 +1,8 @@
 Tested on Mac only
+
 Issues to fix 
 <b> 1. Need to add upated version that will deface and then replace with the BIDS validated name in it </b>
+
 
 This is a short tutorial for automatically defacing data in a BIDS validated directory using mri_deface. 
 I'd like to move to pydeface, but I'm having some errors with it so I'll stick with mri_deface for now
@@ -63,3 +65,6 @@ If you do not have a BIDS valid dataset just replace the `anat` part in
 ```
 
 to include whatever keyword in your folder/directory indicates there are ONLY T1 files inside. If you keep your T1 and T2* (T2* aka BOLD or functional images) nifti files in the same folder I'm 99% certain this code will NOT work and will throw an error and not deface anything 
+
+
+You should also always check that the T1 was defaced without losing any of the brain.

@@ -46,7 +46,7 @@ Use the find command like so
 ```
 
 
-find insert/path/of/BIDS/data  -path "*anat*/*.nii.gz*" -execdir /your/mri_deface/path {} /path/to/talairach_mixed_with_skull.gca /path/to/face.gca  my_T1_defaced.nii \;
+find insert/path/of/BIDS/directory  -path "*anat*/*.nii.gz*" -execdir /your/mri_deface/path {} /path/to/talairach_mixed_with_skull.gca /path/to/face.gca  my_T1_defaced.nii \;
 
 
 ```

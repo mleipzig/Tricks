@@ -1,4 +1,6 @@
 Tested on Mac only
+Issues to fix 
+<b> 1. Need to add upated version that will deface and then replace with the BIDS validated name in it </b>
 
 This is a short tutorial for automatically defacing data in a BIDS validated directory using mri_deface. 
 I'd like to move to pydeface, but I'm having some errors with it so I'll stick with mri_deface for now

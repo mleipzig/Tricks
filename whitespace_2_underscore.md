@@ -1,6 +1,6 @@
-Super convenient for any issues that may occur 
+Super convenient for any issues that may occur with whitespace in your directory and filenames
 
-This will replace all the whitespace in a specific directory (based on the `/insert/path/name` part) with underscores. Very useful for programs like FSL
+This will replace <b> ALL <b/> the whitespace (in both the directory names and filenames) with underscores in a specific directory (which you select by inputting the path in the `/insert/path/name` part). Very useful for programs like FSL that require no white space
 
 
 ```

@@ -60,7 +60,7 @@ find insert/path/of/BIDS/directory  -path "*anat*/*.nii.gz*" -execdir /your/mri_
 ```
 
 and now the jobs will be automated for you. De-facing takes about 5 minutes per T1.   
-One downside of this script is you lose the BIDS valid file format name. <b> I'll update some point in the future with code to fix that </b>
+One downside of this script is you lose the BIDS valid file format name and your T1's will all be named `my_T1_defaced.nii`. <b> I'll update some point in the future with code to fix that </b>
 
 
 

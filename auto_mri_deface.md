@@ -38,8 +38,14 @@ cp mri_deface-v1.22-Linux64 mri_deface
 ```
 
 
-Then proceed with the other steps
+Then proceed with the other steps which are 
 
+```
+chmod a+x mri_deface
+gunzip talairach_mixed_with_skull.gca.gz
+gunzip face.gca.gz
+
+```
 
 
 Okay so back to business. 
@@ -54,7 +60,7 @@ find insert/path/of/BIDS/directory  -path "*anat*/*.nii.gz*" -execdir /your/mri_
 ```
 
 and now the jobs will be automated for you. De-facing takes about 5 minutes per T1.   
-One downside of this script is you lose the BIDS valid file format name. I'll update some point in the future with code to fix that
+One downside of this script is you lose the BIDS valid file format name. <b> I'll update some point in the future with code to fix that </b>
 
 
 

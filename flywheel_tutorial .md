@@ -4,7 +4,7 @@ Also, note that I'll be borrowing a lot of material from the current flywheel do
 
 <h3> Flywheel on your web broswer </h3>
 
-Actual documentation for the web browser is pretty well supported so will just link the current flywheel documentation for that here 
+Documentation for the web browser is supported well (on Unix based systems. Windows is not good) so I'll just link the current flywheel documentation for that here 
 https://docs.flywheel.io/display/EM/Managing+Data
 
 

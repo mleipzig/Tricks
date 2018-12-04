@@ -1,5 +1,5 @@
 
-Update with how to make this easier
+Update with how to make this automated using the find command 
 
 
 Assuming that you've performed the 1st level analyses in FSL

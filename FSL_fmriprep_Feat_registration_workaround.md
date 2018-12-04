@@ -1,4 +1,7 @@
 
+Update with how to make this easier
+
+
 Assuming that you've performed the 1st level analyses in FSL
 
 

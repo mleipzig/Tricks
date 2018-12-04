@@ -70,7 +70,7 @@ If you do not have a BIDS valid dataset just replace the `anat` part in
 -path "*anat*/*.nii.gz*"
 ```
 
-to include whatever keyword in your folder/directory indicates there are ONLY T1 files inside. If you keep your T1 and T2* (T2* aka BOLD or functional images) nifti files in the same folder I'm 99% certain this code will NOT work and will throw an error and not deface anything 
+to include whatever keyword in your folder/directory indicates there are ONLY T1 files inside that directory. If you keep your T1 and T2* (T2* aka BOLD or functional MRI) nifti files in the same folder I'm 99% certain this code will NOT work and will throw an error and not deface anything because mri_deface throws an error when you try to run it on BOLD files 
 
 
 You should also always check that the T1 was defaced without losing any of the brain.

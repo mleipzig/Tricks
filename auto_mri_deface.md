@@ -48,7 +48,7 @@ gunzip face.gca.gz
 ```
 
 
-Okay so back to business. 
+Back to business. 
 Use the find command like so 
 
 ```

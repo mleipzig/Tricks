@@ -6,16 +6,16 @@ edits to be made
 
 This code worked on Qualtrics in Semptember-October 2018. Qualtrics is notorious for making updates that break custom coding so keep in mind this may not work in the future. 
 
-In studies that require participants to select from 100's of choices (such as social network nomination data) it is not feasible and highly inconvenient to make this question using a dropdown set of items on qualtrics because the drop down menu is not searchable.
+In studies that require participants to select from 100's of choices (such as social network nomination data) it is not feasible and highly inconvenient to use the normal dropdown question types provided by Qualtrics because the drop down menu is not searchable.
 
 The best solution in this case would be a text-box that participants can fill in and then have custom javascript code that shows pre-defined choices that the researchers want the participant to select from. 
 
-The other important factors is that you want to reduce typos that are often caused by fill in the blank questions. So your javascript code will need to delete the whole text box if the partcipant type in exactly what the autocomplete code suggests. 
+Another important factor is that you want to reduce typos that are common with fill in the blank questions. So your javascript code will need to delete the whole text box if the partcipant type in exactly what the autocomplete code suggests. 
 
-Then you make the question forced choice (or at least give them a warning if they try to progress without filling anything in). 
+Then you make the question forced choice (or at least give them a warning if they try to progress without filling anything in). This means you will receive no typos. 
 
 This is a tutorial for how to conveniently make the autocomplete code in Qualtrics. 
-Please note that some Qualtrics survey templates do not work with this code for some reason. I got it to work with the "modern" template.
+Please note that some Qualtrics survey templates do not work with this code or are horribly formatted. No idea why. I got this to work with the "modern" template.
 
 
 First in order to make javascript a viable option in your survey you must edit the "header" of the survey. To do this go to 

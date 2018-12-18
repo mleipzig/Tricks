@@ -100,8 +100,17 @@ with the `~1` referring to the form field ID you wish to reference. The form fie
 
 Note what happens if you have names with ' in the autocomplete code like O'Reily. In these cases the autocomplete won't work so you must eliminate ' from your lists
  
-
-
+Also, in case you were wondering, you can make this list `var list =  ['insert', 'different', 'strings', 'like', 'this']
+` 
+vertical like this 
+```
+var list =  [
+'insert', 
+'different', 
+'strings', 
+'like', 
+'this']
+```
 
 
 talk about global vs local variable creation 

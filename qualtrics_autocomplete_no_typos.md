@@ -69,7 +69,7 @@ You'll want to add this code to the addOnReady function part
 	var list =  ['insert', 'different', 'strings', 'like', 'this']
 
 var source = list;
-	jQuery("[id='QR~QID1~1']").autocomplete({
+	jQuery("#"+this.questionId+" .InputText").autocomplete({
         minLength: 0,
         source: source,
         autoFocus: true,
@@ -98,14 +98,16 @@ var source = list;
 });
 
 ```
-Note what happens if you have names with ' in them like O'Reily. 
-Doesn't work 
+If you would like to individualize the form fields so some form fields show certain answers than the other form fields you can choose specific form field IDs by replacing the code on line 72 
+`jQuery("#"+this.questionId+" .InputText").autocomplete({`
 
-to get the ID. 
+with this 
+`jQuery("[id='QR~QID1~1']")`
+with the `~1` referring to the form field ID you wish to reference. The form fields are <b>usually</b> ordered from 1 to how many form fields you have, but that's not always the case. You can check what the form field IDs are by exporting the data dictionary with instructions found <a href="https://www.qualtrics.com/community/discussion/1062/generate-survey-data-dictionary-and-export-to-word">here</a>
+ 
 
-Issues with getting Id for the form fields because sometimes it's not starting at 1. 
-
-
+Note what happens if you have names with ' in the autocomplete code like O'Reily. In these cases the autocomplete won't work so you must eliminate ' from your lists
+ 
 
 
 

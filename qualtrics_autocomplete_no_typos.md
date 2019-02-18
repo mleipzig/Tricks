@@ -6,7 +6,7 @@ edits to be made
 
 This code worked on Qualtrics in Semptember-October 2018 and again in December 2018. Qualtrics is notorious for making updates that break custom coding so keep in mind this may not work in the future. 
 
-<strong> Somehow only one form field out of more than 100k+ different form fields had a typo in their response so the code may not be full proof, but I cannot determine how that single form field had a typo (the name was off by one character even though it was correctly spelled in the code). </strong> I still believe this code is very convenient. 
+<strong> Somehow only one form field out of more than 100k+ different form fields had a typo in their response so the code may not be full proof, but I cannot determine how that single form field had a typo (the name was off by one character even though it was correctly spelled in the code). </strong> Regardless, I still believe this code is very convenient. 
 
 In studies that require participants to select from 100's of choices (such as who to nominate in their dorm for "most liked" person) it is not feasible and highly inconvenient to use the normal dropdown question types provided by Qualtrics because the drop down menu is not searchable. I can't type in "t" and see all the options that start with "t" in them. 
 

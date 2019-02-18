@@ -4,9 +4,11 @@ edits to be made
 
 
 
-This code worked on Qualtrics in Semptember-October 2018. Qualtrics is notorious for making updates that break custom coding so keep in mind this may not work in the future. 
+This code worked on Qualtrics in Semptember-October 2018 and again in December 2018. Qualtrics is notorious for making updates that break custom coding so keep in mind this may not work in the future. 
 
-In studies that require participants to select from 100's of choices (such as social network nomination data) it is not feasible and highly inconvenient to use the normal dropdown question types provided by Qualtrics because the drop down menu is not searchable.
+<strong> Somehow only one form field out of more than 100k+ different form fields had a typo in their response so the code may not be full proof, but I cannot determine how that single form field had a typo (the name was off by one character even though it was correctly spelled in the code). </strong> I still believe this code is very convenient. 
+
+In studies that require participants to select from 100's of choices (such as who to nominate in their dorm for "most liked" person) it is not feasible and highly inconvenient to use the normal dropdown question types provided by Qualtrics because the drop down menu is not searchable. I can't type in "t" and see all the options that start with "t" in them. 
 
 The best solution in this case would be a text-box that participants can fill in and then have custom javascript code that shows pre-defined choices that the researchers want the participant to select from. 
 
@@ -98,7 +100,7 @@ with this
 with the `~1` referring to the form field ID you wish to reference. The form fields are <b>usually</b> ordered from 1 to how many form fields you have, but that's not always the case. You can check what the form field IDs are by exporting the data dictionary with instructions found <a href="https://www.qualtrics.com/community/discussion/1062/generate-survey-data-dictionary-and-export-to-word">here</a>
  
 
-Note what happens if you have names with ' in the autocomplete code like O'Reily. In these cases the autocomplete won't work so you must eliminate ' from your lists
+Note what happens if you have names with ' in the `var list` like `O'Reily`. In these cases the autocomplete won't work so you must eliminate ' from your lists. Make sure to note this choice if you make a key for your names and want to de-identify them. 
  
 Also, in case you were wondering, you can make this list `var list =  ['insert', 'different', 'strings', 'like', 'this']
 ` 
@@ -113,7 +115,7 @@ var list =  [
 ```
 
 
-talk about global vs local variable creation 
+will talk about global vs local variable creation in Qualtrics in the future 
 ```
 code to add to the h to make global variables 
 ```
